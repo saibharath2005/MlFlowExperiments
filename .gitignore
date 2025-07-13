@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+.env
+*.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Model files
+final_model/
+model.pkl
+preprocessor.pkl
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# AWS/GCP credentials
+.aws/
+.gcloud/
+
+# OS generated files
+*.swp
